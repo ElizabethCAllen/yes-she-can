@@ -37,8 +37,11 @@ console.log(newDate);
 console.log(date.toDateString());
 console.log(date.toLocaleDateString());
 
+
 // set timeout
 setTimeout(function(){
     console.log(new Date());
     
 }, 5000);
+var newTime = new Date();
+console.log(newTime.getTime() - date.getTime()); //tie elaplsed in milliseconds
