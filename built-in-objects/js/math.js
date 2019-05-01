@@ -13,3 +13,7 @@ console.log('min', Math.min(x,y));
 
 var z = 300;
 console.log('absolute', Math.abs(z)); //return absolute balue of the variable
+
+var base  = 2,
+    power = 2;
+console.log('power', Math.pow(base, power));
